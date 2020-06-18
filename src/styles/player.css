@@ -95,12 +95,11 @@ section.info {
 
 section.info div {
     padding: 20px;
-    word-wrap: break-word;
 }
 
 section.info div p {
     margin-bottom: 5px;
-    
+    overflow-wrap: anywhere;
 }
 
 @media (max-width: 800px) {

@@ -4,9 +4,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* position: sticky;
-    top: 0px;
-    z-index: 1; */
   }
   
   header p.header-text {
