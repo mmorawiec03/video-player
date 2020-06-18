@@ -1,0 +1,120 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.width-limiter {
+    max-width: 100%;
+    width: 1200px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-container {
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    height: auto;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.url-input {
+    flex-direction: row;
+    height: 10%;
+}
+
+section.url-input input {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    width: 60%;
+}
+
+section.url-input button {
+    padding: 12px;
+    border-radius: 100%;
+}
+
+
+section.example-videos h1 {
+    color: white;
+}
+
+section.example-videos .film-logo {
+    margin-right: 5px;
+}
+
+section.video video {
+    outline: none;
+}
+
+.info-container {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    top: -50px;
+    border-radius: 3px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+section.levels {
+    padding: 20px;
+    border-bottom: rgba(34, 34, 34, 0.4) solid 2px;
+}
+
+section.info {
+    padding: 20px;
+}
+
+section.info div {
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+section.info div p {
+    margin-bottom: 5px;
+    
+}
+
+@media (max-width: 800px) {
+    section.url-input input {
+        margin: 8px;
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    section.url-input input {
+        margin: 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
